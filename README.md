@@ -1,24 +1,31 @@
-# Z-Cleaner
+# Z-Cleaner v1.0.0
 
-A fast, secure, and modern system cleaner for Windows and macOS, built with Rust, Tauri, and React.
+🧹 A professional, fast, and secure system cleaner for Windows and macOS, built with Rust, Tauri, React, and TypeScript.
 
-## Features
+## ✨ Features
 
 - 🧹 **System Cleaning**: Remove temporary files, browser cache, logs, and application cache
-- 🔍 **Disk Analysis**: Identify large files and monitor disk usage
+- 🔍 **Disk Analysis**: Identify large files and monitor disk usage with real-time progress
 - ⚙️ **System Optimization**: Manage startup programs and optimize performance
-- 🎨 **Modern UI**: Beautiful, responsive interface with light/dark theme
+- 🛡️ **Malware Detection**: Local malware scanning with Cloudmersive API integration
+- 🎨 **Modern UI**: Beautiful, responsive interface with light/dark theme and multi-language support
 - 🛡️ **Secure**: 100% offline, no data collection, local processing only
 - ⚡ **Fast**: Rust backend for optimal performance
 - 🔒 **Safe Mode**: Scan without deleting for testing
+- 📦 **Professional Installer**: Inno Setup wizard for Windows with EULA and custom branding
+- 🌍 **Multi-language**: French and English support
 
-## Tech Stack
+## 🛠️ Tech Stack
 
-- **Backend**: Rust with Tauri
-- **Frontend**: React + TypeScript
-- **Styling**: TailwindCSS
-- **Icons**: Lucide React
-- **Animations**: Framer Motion
+- **Backend**: Rust 1.70+ with Tauri 1.8+
+- **Frontend**: React 18 + TypeScript 5
+- **Styling**: TailwindCSS 3 + PostCSS
+- **Icons**: Font Awesome 7 + Lucide React
+- **Animations**: Framer Motion 10
+- **HTTP Client**: Reqwest 0.11
+- **Hashing**: SHA2 0.10
+- **Environment**: Dotenv 0.15
+- **Installer**: Inno Setup 6
 
 ## Project Structure
 
@@ -76,7 +83,7 @@ z-cleaner-2/
    npm install -g @tauri-apps/cli
    ```
 
-## Development
+## 🚀 Development
 
 ### Run in development mode
 
@@ -93,6 +100,20 @@ npm run build
 ```
 
 The compiled application will be in `src-tauri/target/release/`.
+
+### Generate Icons
+
+```bash
+npm run icons:tauri      # Generate Tauri icons from PNG
+npm run generate:assets  # Generate installer assets
+```
+
+### Create Windows Installer
+
+```bash
+npm run build:installer  # Create Inno Setup installer (Windows only)
+npm run build:all        # Full build: icons + assets + build + installer
+```
 
 ## Features Breakdown
 
