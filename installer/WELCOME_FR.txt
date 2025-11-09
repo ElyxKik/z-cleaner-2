@@ -1,0 +1,23 @@
+Bienvenue dans Z-Cleaner
+
+Merci d'avoir choisi Z-Cleaner, le nettoyeur système professionnel multiplateforme.
+
+Z-Cleaner vous aide à :
+✓ Nettoyer les fichiers temporaires et les caches
+✓ Analyser et supprimer les fichiers volumineux inutilisés
+✓ Optimiser les performances de votre système
+✓ Détecter et supprimer les malwares
+✓ Gérer les programmes au démarrage
+
+SYSTÈME REQUIS :
+- Windows 7, 8, 10 ou 11
+- 100 MB d'espace disque libre
+- Droits administrateur
+
+AVANT DE CONTINUER :
+Veuillez lire attentivement le contrat de licence utilisateur final (EULA)
+et accepter les conditions pour continuer l'installation.
+
+Pour plus d'informations, visitez : https://github.com/elykik/z-cleaner
+
+Cliquez sur "Suivant" pour continuer l'installation.

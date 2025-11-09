@@ -1,0 +1,38 @@
+{
+  "name": "z-cleaner",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tauri dev",
+    "build": "tauri build",
+    "preview": "vite preview",
+    "type-check": "tsc --noEmit",
+    "icons:tauri": "tauri icon \"ChatGPT Image 3 sept. 2025, 20_01_25.png\" -o src-tauri/icons",
+    "generate:assets": "python3 generate-installer-assets-from-logo.py",
+    "build:installer": "powershell -ExecutionPolicy Bypass -File installer/build-installer.ps1",
+    "build:all": "npm run icons:tauri && npm run generate:assets && npm run build && npm run build:installer"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^7.1.0",
+    "@fortawesome/free-solid-svg-icons": "^7.1.0",
+    "@fortawesome/react-fontawesome": "^3.1.0",
+    "@tauri-apps/api": "^1.5.3",
+    "framer-motion": "^10.16.4",
+    "lucide-react": "^0.263.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.5.9",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.27",
+    "tailwindcss": "^3.3.3",
+    "terser": "^5.44.1",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  }
+}

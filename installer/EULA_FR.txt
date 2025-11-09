@@ -1,0 +1,55 @@
+Z-CLEANER - CONTRAT DE LICENCE UTILISATEUR FINAL (EULA)
+
+VERSION 1.0 - Novembre 2025
+
+IMPORTANT : VEUILLEZ LIRE ATTENTIVEMENT CE CONTRAT AVANT D'INSTALLER OU D'UTILISER Z-CLEANER.
+
+En installant ou en utilisant Z-Cleaner, vous acceptez les termes et conditions de ce contrat de licence.
+Si vous n'acceptez pas ces conditions, veuillez ne pas installer ou utiliser ce logiciel.
+
+1. OCTROI DE LICENCE
+
+Z-Cleaner vous accorde une licence limitée, non-exclusive et non-transférable pour utiliser ce logiciel
+à des fins personnelles ou professionnelles, conformément aux termes de ce contrat.
+
+2. RESTRICTIONS
+
+Vous ne pouvez pas :
+- Copier, modifier ou distribuer le logiciel sans autorisation écrite
+- Utiliser le logiciel à des fins illégales ou contraires à l'ordre public
+- Décompiler, désassembler ou tenter de contourner les mesures de sécurité
+- Utiliser le logiciel sur plusieurs ordinateurs simultanément sans licence appropriée
+- Revendre ou louer le logiciel
+
+3. PROPRIÉTÉ INTELLECTUELLE
+
+Z-Cleaner et tous ses contenus sont protégés par les droits d'auteur et autres lois de propriété intellectuelle.
+Tous les droits sont réservés.
+
+4. LIMITATION DE RESPONSABILITÉ
+
+Z-Cleaner est fourni "TEL QUEL" sans garantie d'aucune sorte, expresse ou implicite.
+L'auteur ne sera pas responsable des dommages directs, indirects, accessoires ou consécutifs
+résultant de l'utilisation ou de l'impossibilité d'utiliser ce logiciel.
+
+5. POLITIQUE DE CONFIDENTIALITÉ
+
+Z-Cleaner ne collecte pas vos données personnelles. Le logiciel fonctionne entièrement en local
+sur votre ordinateur. Aucune information n'est envoyée à des serveurs externes sans votre consentement explicite.
+
+6. MISES À JOUR
+
+L'auteur se réserve le droit de modifier ce logiciel et ses conditions d'utilisation à tout moment.
+
+7. RÉSILIATION
+
+Cette licence est valide jusqu'à sa résiliation. Vos droits seront automatiquement résiliés
+si vous violez l'une des conditions de ce contrat.
+
+8. LOI APPLICABLE
+
+Ce contrat est régi par les lois applicables dans votre juridiction.
+
+---
+
+En cliquant sur "J'accepte", vous reconnaissez avoir lu et accepté tous les termes de ce contrat.
