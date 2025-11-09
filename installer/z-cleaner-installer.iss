@@ -52,11 +52,21 @@ DefaultLanguage=French
 Name: "french"; MessagesFile: "compiler:Languages\French.isl"
 Name: "english"; MessagesFile: "compiler:Languages\English.isl"
 
+; Pages personnalisées
+[CustomMessages]
+french.PrivacyPageTitle=Politique de Confidentialité
+french.PrivacyPageSubtitle=Veuillez lire et accepter notre politique de confidentialité
+french.PrivacyPageAccept=J'accepte la politique de confidentialité
+english.PrivacyPageTitle=Privacy Policy
+english.PrivacyPageSubtitle=Please read and accept our privacy policy
+english.PrivacyPageAccept=I accept the privacy policy
+
 [Tasks]
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 Name: "quicklaunchicon"; Description: "{cm:CreateQuickLaunchIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked; OnlyBelowVersion: 6.1
 Name: "startmenu"; Description: "Créer un raccourci dans le menu Démarrer"; GroupDescription: "{cm:AdditionalIcons}"; Flags: checked
 Name: "associate"; Description: "Associer Z-Cleaner aux fichiers de configuration"; GroupDescription: "Options supplémentaires"; Flags: unchecked
+Name: "privacy"; Description: "{cm:PrivacyPageAccept}"; GroupDescription: "Conditions d'utilisation"; Flags: checked
 
 [Files]
 ; Fichier exécutable principal
@@ -64,6 +74,8 @@ Source: "{#SourceExePath}"; DestDir: "{app}"; Flags: ignoreversion
 ; Fichiers de support
 Source: "installer\README.txt"; DestDir: "{app}"; Flags: ignoreversion isreadme
 Source: "installer\LICENSE.txt"; DestDir: "{app}"; Flags: ignoreversion
+Source: "installer\PRIVACY_POLICY_FR.txt"; DestDir: "{app}"; Flags: ignoreversion
+Source: "installer\PRIVACY_POLICY_EN.txt"; DestDir: "{app}"; Flags: ignoreversion
 ; Icône de l'application
 Source: "installer\icon.ico"; DestDir: "{app}"; Flags: ignoreversion
 
@@ -89,13 +101,39 @@ Type: filesandordirs; Name: "{app}"
 var
   ProgressPage: TOutputProgressWizardPage;
   InstallationStarted: Boolean;
+  PrivacyAccepted: Boolean;
 
 // Procédure exécutée avant le début de l'installation
 procedure InitializeWizard();
+var
+  PrivacyPage: TOutputMemoWizardPage;
+  PrivacyText: String;
+  PrivacyFile: String;
 begin
   // Créer une page de progression personnalisée
   ProgressPage := CreateOutputProgressPage('Installation en cours', 'Veuillez patienter pendant l''installation de Z-Cleaner...');
   ProgressPage.SetProgress(0, 100);
+  
+  // Créer la page de politique de confidentialité
+  if ActiveLanguage = 'french' then
+    PrivacyFile := ExpandConstant('{src}\installer\PRIVACY_POLICY_FR.txt')
+  else
+    PrivacyFile := ExpandConstant('{src}\installer\PRIVACY_POLICY_EN.txt');
+  
+  // Charger le contenu du fichier de politique
+  if FileExists(PrivacyFile) then
+  begin
+    if LoadStringFromFile(PrivacyFile, PrivacyText) then
+    begin
+      PrivacyPage := CreateOutputMemoPage(wpLicense, 
+        ExpandConstant('{cm:PrivacyPageTitle}'),
+        ExpandConstant('{cm:PrivacyPageSubtitle}'),
+        PrivacyText);
+      PrivacyPage.ReadOnly := True;
+    end;
+  end;
+  
+  PrivacyAccepted := False;
 end;
 
 // Vérifier les conditions avant l'installation

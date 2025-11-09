@@ -1,0 +1,281 @@
+================================================================================
+                    POLITIQUE DE CONFIDENTIALITÉ Z-CLEANER
+                              Version 1.0 - 2025
+================================================================================
+
+POLITIQUE DE CONFIDENTIALITÉ
+
+Dernière mise à jour : Novembre 2025
+
+================================================================================
+1. INTRODUCTION
+================================================================================
+
+Z-Cleaner (ci-après "l'Application") s'engage à protéger votre vie privée et à 
+vous fournir une expérience utilisateur transparente et sécurisée. Cette 
+Politique de Confidentialité explique comment nous traitons vos données 
+personnelles.
+
+================================================================================
+2. DONNÉES COLLECTÉES
+================================================================================
+
+2.1 DONNÉES COLLECTÉES LOCALEMENT
+
+L'Application collecte et traite les données suivantes UNIQUEMENT sur votre 
+ordinateur local :
+
+- Fichiers temporaires (Temp, Cache)
+- Fichiers journaux (Logs)
+- Fichiers de cache d'application
+- Informations sur l'espace disque
+- Noms et tailles de fichiers volumineux
+- Informations sur les programmes au démarrage
+
+IMPORTANT : Aucune de ces données n'est envoyée à nos serveurs.
+
+2.2 DONNÉES NON COLLECTÉES
+
+L'Application ne collecte PAS :
+- Vos données personnelles (nom, email, adresse, etc.)
+- Vos fichiers personnels ou documents
+- Vos mots de passe ou informations sensibles
+- Vos historiques de navigation
+- Vos données de localisation
+- Vos contacts ou informations de communication
+
+================================================================================
+3. TRAITEMENT DES DONNÉES
+================================================================================
+
+3.1 TRAITEMENT LOCAL
+
+Toutes les opérations de l'Application sont effectuées localement sur votre 
+ordinateur :
+
+- Analyse des fichiers
+- Détection des fichiers temporaires
+- Nettoyage des fichiers
+- Analyse de l'espace disque
+- Détection de malwares
+
+3.2 ANALYSE OPTIONNELLE DE MALWARES
+
+L'Application offre une fonctionnalité OPTIONNELLE de scan de malwares qui 
+utilise l'API Cloudmersive :
+
+- Cette fonctionnalité est DÉSACTIVÉE par défaut
+- Vous devez l'activer explicitement dans les paramètres
+- Vous devez fournir une clé API Cloudmersive valide
+- Seuls les fichiers que vous sélectionnez sont envoyés à Cloudmersive
+- Cloudmersive dispose de sa propre politique de confidentialité
+
+================================================================================
+4. DONNÉES ENVOYÉES À DES TIERS
+================================================================================
+
+4.1 CLOUDMERSIVE (OPTIONNEL)
+
+Si vous activez le scan de malwares avec Cloudmersive :
+
+- Seuls les fichiers que vous sélectionnez sont envoyés
+- Les données sont envoyées via HTTPS (chiffré)
+- Cloudmersive traite ces données selon sa politique de confidentialité
+- Consultez https://www.cloudmersive.com/privacy pour plus d'informations
+
+4.2 AUTRES TIERS
+
+L'Application ne partage vos données avec aucun autre tiers.
+
+================================================================================
+5. STOCKAGE DES DONNÉES
+================================================================================
+
+5.1 STOCKAGE LOCAL
+
+Les données suivantes sont stockées localement sur votre ordinateur :
+
+- Paramètres de l'Application
+- Historique de nettoyage
+- Préférences utilisateur (langue, thème)
+- Clé API Cloudmersive (si fournie)
+
+5.2 SÉCURITÉ DU STOCKAGE
+
+- Les données sont stockées dans les répertoires standards de Windows
+- Les données sensibles (clés API) sont stockées dans le fichier .env
+- Vous êtes responsable de la sécurité de votre ordinateur
+
+================================================================================
+6. DROITS DE L'UTILISATEUR
+================================================================================
+
+6.1 ACCÈS AUX DONNÉES
+
+Vous avez le droit d'accéder à vos données personnelles stockées par 
+l'Application. Ces données sont stockées localement sur votre ordinateur.
+
+6.2 SUPPRESSION DES DONNÉES
+
+Vous pouvez supprimer toutes les données de l'Application en :
+- Désinstallant l'Application
+- Supprimant manuellement les fichiers de configuration
+- Réinitialisant les paramètres dans l'Application
+
+6.3 PORTABILITÉ DES DONNÉES
+
+Vos données sont stockées localement et vous pouvez les exporter ou les 
+transférer à tout moment.
+
+================================================================================
+7. SÉCURITÉ DES DONNÉES
+================================================================================
+
+7.1 MESURES DE SÉCURITÉ
+
+L'Application implémente les mesures de sécurité suivantes :
+
+- Traitement local des données (pas de transmission réseau)
+- Suppression sécurisée des fichiers
+- Validation des fichiers avant suppression
+- Mode sûr pour tester sans supprimer
+- Chiffrement HTTPS pour les communications optionnelles
+
+7.2 RESPONSABILITÉ
+
+Vous êtes responsable de :
+- La sécurité de votre ordinateur
+- La sauvegarde de vos données importantes
+- L'utilisation responsable de l'Application
+- La protection de votre clé API Cloudmersive
+
+================================================================================
+8. CONSERVATION DES DONNÉES
+================================================================================
+
+8.1 DURÉE DE CONSERVATION
+
+- Les données sont conservées tant que l'Application est installée
+- L'historique de nettoyage est conservé localement
+- Les paramètres sont conservés jusqu'à la désinstallation
+- Vous pouvez supprimer l'historique manuellement
+
+8.2 SUPPRESSION APRÈS DÉSINSTALLATION
+
+Lors de la désinstallation :
+- Les fichiers de l'Application sont supprimés
+- Les données de configuration peuvent rester (selon les paramètres)
+- Vous pouvez supprimer manuellement les fichiers restants
+
+================================================================================
+9. COOKIES ET TECHNOLOGIES DE SUIVI
+================================================================================
+
+L'Application n'utilise PAS :
+- De cookies
+- De pixels de suivi
+- De balises web
+- De technologies de suivi similaires
+
+================================================================================
+10. MODIFICATIONS DE CETTE POLITIQUE
+================================================================================
+
+Nous nous réservons le droit de modifier cette Politique de Confidentialité 
+à tout moment. Les modifications seront communiquées via :
+
+- Une notification dans l'Application
+- Une mise à jour du fichier de politique
+- Un message lors du lancement de l'Application
+
+Votre utilisation continue de l'Application après les modifications signifie 
+votre acceptation des nouvelles conditions.
+
+================================================================================
+11. CONTACT ET RÉCLAMATIONS
+================================================================================
+
+11.1 QUESTIONS
+
+Pour toute question concernant cette Politique de Confidentialité, veuillez 
+contacter :
+
+Email : support@z-cleaner.dev
+GitHub : https://github.com/ElyxKik/z-cleaner-2
+
+11.2 RÉCLAMATIONS
+
+Si vous estimez que vos droits en matière de confidentialité ont été violés, 
+vous pouvez :
+
+- Nous contacter directement
+- Ouvrir un problème sur GitHub
+- Contacter les autorités de protection des données compétentes
+
+================================================================================
+12. CONFORMITÉ LÉGALE
+================================================================================
+
+12.1 RGPD (UNION EUROPÉENNE)
+
+L'Application est conforme au Règlement Général sur la Protection des Données 
+(RGPD) :
+
+- Pas de collecte de données personnelles
+- Traitement local uniquement
+- Transparence complète
+- Droits utilisateur respectés
+
+12.2 AUTRES JURIDICTIONS
+
+L'Application respecte les lois de protection des données applicables dans 
+votre juridiction.
+
+================================================================================
+13. DONNÉES TECHNIQUES
+================================================================================
+
+13.1 INFORMATIONS DE DIAGNOSTIC
+
+L'Application ne collecte PAS d'informations de diagnostic automatiques.
+
+13.2 RAPPORT D'ERREURS
+
+Les rapports d'erreurs sont stockés localement et ne sont pas envoyés 
+automatiquement.
+
+================================================================================
+14. TIERS ET DÉPENDANCES
+================================================================================
+
+L'Application utilise les bibliothèques suivantes :
+
+- Tauri : Framework d'application (politique : https://tauri.app/privacy)
+- React : Framework frontend (politique : https://react.dev)
+- Rust : Langage de programmation (politique : https://www.rust-lang.org)
+
+Consultez leurs politiques de confidentialité respectives pour plus 
+d'informations.
+
+================================================================================
+15. DÉCLARATION FINALE
+================================================================================
+
+Z-Cleaner est conçu pour respecter votre vie privée. Nous croyons que vous 
+devez avoir le contrôle total de vos données. C'est pourquoi :
+
+✓ Aucune donnée n'est collectée sans votre consentement
+✓ Aucune donnée n'est envoyée à nos serveurs
+✓ Toutes les opérations sont effectuées localement
+✓ Vous pouvez utiliser l'Application complètement hors ligne
+✓ Vous pouvez vérifier le code source sur GitHub
+
+================================================================================
+
+En utilisant Z-Cleaner, vous acceptez cette Politique de Confidentialité.
+
+Si vous n'acceptez pas cette politique, veuillez ne pas utiliser l'Application.
+
+================================================================================
+                              FIN DE LA POLITIQUE
+================================================================================

@@ -1,0 +1,273 @@
+================================================================================
+                       PRIVACY POLICY - Z-CLEANER
+                              Version 1.0 - 2025
+================================================================================
+
+PRIVACY POLICY
+
+Last Updated: November 2025
+
+================================================================================
+1. INTRODUCTION
+================================================================================
+
+Z-Cleaner (hereinafter "the Application") is committed to protecting your 
+privacy and providing you with a transparent and secure user experience. This 
+Privacy Policy explains how we handle your personal data.
+
+================================================================================
+2. DATA COLLECTED
+================================================================================
+
+2.1 DATA COLLECTED LOCALLY
+
+The Application collects and processes the following data ONLY on your local 
+computer:
+
+- Temporary files (Temp, Cache)
+- Log files
+- Application cache files
+- Disk space information
+- Large file names and sizes
+- Startup program information
+
+IMPORTANT: None of this data is sent to our servers.
+
+2.2 DATA NOT COLLECTED
+
+The Application does NOT collect:
+- Your personal information (name, email, address, etc.)
+- Your personal files or documents
+- Your passwords or sensitive information
+- Your browsing history
+- Your location data
+- Your contacts or communication information
+
+================================================================================
+3. DATA PROCESSING
+================================================================================
+
+3.1 LOCAL PROCESSING
+
+All Application operations are performed locally on your computer:
+
+- File analysis
+- Temporary file detection
+- File cleaning
+- Disk space analysis
+- Malware detection
+
+3.2 OPTIONAL MALWARE ANALYSIS
+
+The Application offers an OPTIONAL malware scanning feature that uses the 
+Cloudmersive API:
+
+- This feature is DISABLED by default
+- You must explicitly enable it in settings
+- You must provide a valid Cloudmersive API key
+- Only files you select are sent to Cloudmersive
+- Cloudmersive has its own privacy policy
+
+================================================================================
+4. DATA SENT TO THIRD PARTIES
+================================================================================
+
+4.1 CLOUDMERSIVE (OPTIONAL)
+
+If you enable malware scanning with Cloudmersive:
+
+- Only files you select are sent
+- Data is sent via HTTPS (encrypted)
+- Cloudmersive processes this data according to its privacy policy
+- See https://www.cloudmersive.com/privacy for more information
+
+4.2 OTHER THIRD PARTIES
+
+The Application does not share your data with any other third parties.
+
+================================================================================
+5. DATA STORAGE
+================================================================================
+
+5.1 LOCAL STORAGE
+
+The following data is stored locally on your computer:
+
+- Application settings
+- Cleaning history
+- User preferences (language, theme)
+- Cloudmersive API key (if provided)
+
+5.2 STORAGE SECURITY
+
+- Data is stored in standard Windows directories
+- Sensitive data (API keys) are stored in the .env file
+- You are responsible for your computer's security
+
+================================================================================
+6. USER RIGHTS
+================================================================================
+
+6.1 DATA ACCESS
+
+You have the right to access your personal data stored by the Application. 
+This data is stored locally on your computer.
+
+6.2 DATA DELETION
+
+You can delete all Application data by:
+- Uninstalling the Application
+- Manually deleting configuration files
+- Resetting settings in the Application
+
+6.3 DATA PORTABILITY
+
+Your data is stored locally and you can export or transfer it at any time.
+
+================================================================================
+7. DATA SECURITY
+================================================================================
+
+7.1 SECURITY MEASURES
+
+The Application implements the following security measures:
+
+- Local data processing (no network transmission)
+- Secure file deletion
+- File validation before deletion
+- Safe mode for testing without deleting
+- HTTPS encryption for optional communications
+
+7.2 RESPONSIBILITY
+
+You are responsible for:
+- Your computer's security
+- Backing up your important data
+- Responsible use of the Application
+- Protecting your Cloudmersive API key
+
+================================================================================
+8. DATA RETENTION
+================================================================================
+
+8.1 RETENTION PERIOD
+
+- Data is retained as long as the Application is installed
+- Cleaning history is retained locally
+- Settings are retained until uninstallation
+- You can manually delete history
+
+8.2 DELETION AFTER UNINSTALLATION
+
+Upon uninstallation:
+- Application files are deleted
+- Configuration data may remain (depending on settings)
+- You can manually delete remaining files
+
+================================================================================
+9. COOKIES AND TRACKING TECHNOLOGIES
+================================================================================
+
+The Application does NOT use:
+- Cookies
+- Tracking pixels
+- Web beacons
+- Similar tracking technologies
+
+================================================================================
+10. CHANGES TO THIS POLICY
+================================================================================
+
+We reserve the right to modify this Privacy Policy at any time. Changes will 
+be communicated via:
+
+- A notification in the Application
+- An update to the policy file
+- A message when launching the Application
+
+Your continued use of the Application after modifications means you accept 
+the new terms.
+
+================================================================================
+11. CONTACT AND COMPLAINTS
+================================================================================
+
+11.1 QUESTIONS
+
+For any questions about this Privacy Policy, please contact:
+
+Email: support@z-cleaner.dev
+GitHub: https://github.com/ElyxKik/z-cleaner-2
+
+11.2 COMPLAINTS
+
+If you believe your privacy rights have been violated, you can:
+
+- Contact us directly
+- Open an issue on GitHub
+- Contact the competent data protection authorities
+
+================================================================================
+12. LEGAL COMPLIANCE
+================================================================================
+
+12.1 GDPR (EUROPEAN UNION)
+
+The Application complies with the General Data Protection Regulation (GDPR):
+
+- No collection of personal data
+- Local processing only
+- Complete transparency
+- User rights respected
+
+12.2 OTHER JURISDICTIONS
+
+The Application complies with applicable data protection laws in your 
+jurisdiction.
+
+================================================================================
+13. TECHNICAL DATA
+================================================================================
+
+13.1 DIAGNOSTIC INFORMATION
+
+The Application does NOT automatically collect diagnostic information.
+
+13.2 ERROR REPORTING
+
+Error reports are stored locally and are not automatically sent.
+
+================================================================================
+14. THIRD PARTIES AND DEPENDENCIES
+================================================================================
+
+The Application uses the following libraries:
+
+- Tauri: Application framework (policy: https://tauri.app/privacy)
+- React: Frontend framework (policy: https://react.dev)
+- Rust: Programming language (policy: https://www.rust-lang.org)
+
+Please consult their respective privacy policies for more information.
+
+================================================================================
+15. FINAL STATEMENT
+================================================================================
+
+Z-Cleaner is designed to respect your privacy. We believe you should have 
+complete control over your data. That's why:
+
+✓ No data is collected without your consent
+✓ No data is sent to our servers
+✓ All operations are performed locally
+✓ You can use the Application completely offline
+✓ You can verify the source code on GitHub
+
+================================================================================
+
+By using Z-Cleaner, you accept this Privacy Policy.
+
+If you do not accept this policy, please do not use the Application.
+
+================================================================================
+                              END OF POLICY
+================================================================================
